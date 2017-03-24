@@ -1,0 +1,11 @@
+{
+  "name": "mp3streamer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "fluent-ffmpeg": "^2.1.0"
+  }
+}

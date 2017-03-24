@@ -1,0 +1,35 @@
+Arguments: 
+  /usr/bin/nodejs /usr/share/yarn/bin/yarn.js add express
+
+PATH: 
+  /home/schoolboy/miniconda2/bin:/home/schoolboy/.gvm/bin:/home/schoolboy/projects/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+
+Yarn version: 
+  0.19.1
+
+Node version: 
+  7.4.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "mp3streamer",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": {},
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com:443
+      at Object.exports._errnoException (util.js:1022:11)
+      at errnoException (dns.js:33:15)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
